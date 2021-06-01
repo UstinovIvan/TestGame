@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\EducationGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{88A0F976-8354-4291-B0B4-A5BCE3D83DDD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EducationGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\EducationGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{4F9072A8-D6CF-45DD-A6F1-2D1CC79C8CA0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\EducationGame">
+      <UniqueIdentifier>{563B15BA-61E8-4E35-AF6D-F7B657584E81}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EducationGame\EducationGame.Build.cs">
+      <Filter>Source\EducationGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\EducationGame\EducationGame.cpp">
+      <Filter>Source\EducationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EducationGame\EducationGame.h">
+      <Filter>Source\EducationGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EducationGame\EducationGameGameModeBase.cpp">
+      <Filter>Source\EducationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EducationGame\EducationGameGameModeBase.h">
+      <Filter>Source\EducationGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
